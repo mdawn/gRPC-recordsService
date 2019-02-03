@@ -1,8 +1,12 @@
-# Fraud Records Service 
+# See & Store & More 
 
 A CRUD gRPC made with protobufs which uses [MongoDB](https://www.mongodb.com/download-center/community) and [Evans](https://github.com/ktr0731/evans)
+
+**_"THIS. WILL GO DOWN. ON YOUR PERMANENT. RECORD."_**
+- Violent Femmes, "Kiss Off" ;)
+
 ## What You Need
-(I assume you're on a Mac)
+(I assume you're on a Mac.)
 
 - The latest version of [Go](https://golang.org/doc/install#install)
 - [MongoDB](https://www.mongodb.com/download-center/community)
@@ -24,7 +28,7 @@ Create, Read, Update, Delete, and List a BSON with an Id (for tracking) and the 
 - `$ cd mongodb-osx-x86_64-4.0.5`
 - install the go driver: 
 `$ go get github.com/mongodb/mongo-go-driver/mongo`
-- run it: 
+- run it & set your database path (if you like): 
 `$ bin/mongod -dbpath data/db`
 
 **STEP 2**: Open another terminal and clone this repository. Cd into the directory. 
@@ -33,20 +37,21 @@ Create, Read, Update, Delete, and List a BSON with an Id (for tracking) and the 
 **STEP 3**: Open your last terminal and homebrew install Evans.
 - `$ brew tap ktr0731/evans`
 - `$ brew install evans`
+
 Then connect:
 - `evans -p 50051 -r`
 
 
 ## Example Scenario
-I want to CREATE a record
+I want to CREATE a record.
 
 Once in Evans (having used `evans -p 50051 -r` above), I show available services:
 - `show service`
 
-I view the service I want
+I view the service I want:
 -  `service RecordsService`
 
-I call the RPC
+I call the RPC:
 - `call CreateRecords`
 
 And enter my data:
