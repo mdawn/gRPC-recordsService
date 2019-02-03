@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package records;
+
+option go_package = "recordspb";
+
+message Records {
+    string id = 1;
+    string phone = 2;
+    string carrier = 3;
+    string score = 4;
+
+}
+
+message CreateRecordsRequest {
+    Records records = 1;
+
+}
+
+message CreateRecordsResponse {
+    Records records = 1; // will have a records id
+}
+
+message ReadRecordsRequest {
+    string records_id = 1;
+}
+
+message ReadRecordsResponse {
+    Records records = 1;
+}
+
+
+message UpdateRecordsRequest {
+    Records records = 1;
+}
+
+message UpdateRecordsResponse {
+    Records records = 1;
+}
+
+message DeleteRecordsRequest {
+    string records_id = 1;
+}
+
+message DeleteRecordsResponse {
+    string records_id = 1;
+}
+
+message ListRecordsRequest {
+
+}
+
+message ListRecordsResponse {
+    Records records = 1;
+}
+
+
+service RecordsService {
+    rpc CreateRecords (CreateRecordsRequest) returns (CreateRecordsResponse);
+    rpc ReadRecords (ReadRecordsRequest) returns (ReadRecordsResponse); 
+    rpc UpdateRecords (UpdateRecordsRequest) returns (UpdateRecordsResponse); 
+    rpc DeleteRecords (DeleteRecordsRequest) returns (DeleteRecordsResponse); 
+    rpc ListRecords (ListRecordsRequest) returns (stream ListRecordsResponse);
+}
