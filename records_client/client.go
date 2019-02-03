@@ -6,7 +6,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/pindrop-gRPC/records/recordspb"
+	"github.com/pindrop-GRPC/recordspb"
 	"google.golang.org/grpc"
 )
 

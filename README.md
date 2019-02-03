@@ -39,7 +39,7 @@ Create, Read, Update, Delete, and List BSON with an Id (for tracking) and the fo
 `$ bin/mongod -dbpath data/db`
 
 **STEP 2**: Open another terminal and clone this repository. Cd into the directory. 
-- run the server: `go run records/records_server/server.go`
+- run the server: `go run records_server/server.go`
 
 **STEP 3**: Open your last terminal and homebrew install Evans.
 - `$ brew tap ktr0731/evans`
