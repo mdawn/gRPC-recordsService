@@ -33,12 +33,13 @@ Create, Read, Update, Delete, and List BSON with an Id (for tracking) and the fo
 
 **STEP 1**: Open a terminal and start your MongoDB server. 
 - `$ cd mongodb-osx-x86_64-4.0.5`
-- install the go driver: 
+- install the go driver & grpc: 
 `$ go get github.com/mongodb/mongo-go-driver/mongo`
 - run it & set your database path (if you like): 
 `$ bin/mongod -dbpath data/db`
 
 **STEP 2**: Open another terminal and clone this repository. Cd into the directory. 
+- install gRPC: `$ go get google.golang.org/grpc`
 - run the server: `go run records_server/server.go`
 
 **STEP 3**: Open your last terminal and homebrew install Evans.
