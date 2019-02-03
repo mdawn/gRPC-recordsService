@@ -1,12 +1,16 @@
 # See & Store & More 
 
-A CRUD gRPC made with protobufs which uses [MongoDB](https://www.mongodb.com/download-center/community) and [Evans](https://github.com/ktr0731/evans)
+A CRUD gRPC made with protobufs (and love) using [MongoDB](https://www.mongodb.com/download-center/community) and [Evans](https://github.com/ktr0731/evans)
 
-**_"THIS. WILL GO DOWN. ON YOUR PERMANENT. RECORD."_**
-- Violent Femmes, "Kiss Off" ;)
+
+> <dl>
+> <dt><b><i>"THIS. WILL GO DOWN. ON YOUR PERMANENT. RECORD."</i></b></dt> 
+>  <dd> - Violent Femmes, "Kiss Off" </dd>
+ ;) 
 
 ## What You Need
-(I assume you're on a Mac.)
+
+You're on a Mac, right? Of course you are. 
 
 - The latest version of [Go](https://golang.org/doc/install#install)
 - [MongoDB](https://www.mongodb.com/download-center/community)
