@@ -8,7 +8,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/mdawn/pindrop-GRPC/recordspb"
+	"../recordspb"
 	"github.com/mongodb/mongo-go-driver/bson"
 	"github.com/mongodb/mongo-go-driver/bson/primitive"
 	"github.com/mongodb/mongo-go-driver/mongo"
