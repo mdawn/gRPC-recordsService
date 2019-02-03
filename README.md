@@ -1,12 +1,15 @@
 # See & Store & More 
 
-A CRUD gRPC made with protobufs (and love) using [MongoDB](https://www.mongodb.com/download-center/community) and [Evans](https://github.com/ktr0731/evans)
+A CRUD gRPC made with protobufs (and love!) using [MongoDB](https://www.mongodb.com/download-center/community) and [Evans](https://github.com/ktr0731/evans)
 
 
 > <dl>
-> <dt><b><i>"THIS. WILL GO DOWN. ON YOUR PERMANENT. RECORD."</i></b></dt> 
->  <dd> - Violent Femmes, "Kiss Off" </dd>
- ;) 
+> <dt><b><i>"THIS.</i></b></i></b></dt>
+> <dt><b><i>WILL GO DOWN.</i></b></i></b></dt>
+> <dt><b><i>ON YOUR PERMANENT.</i></b></i></b></dt>
+> <dt><b><i>RECORD."</i></b></dt>   
+<dd>- Violent Femmes, "Kiss Off" ;)</dd> 
+
 
 ## What You Need
 
@@ -19,9 +22,9 @@ You're on a Mac, right? Of course you are.
 
 ## What it Does
 
-This CRUD API will:
+This CRUD RPC will:
 
-Create, Read, Update, Delete, and List a BSON with an Id (for tracking) and the following fields:
+Create, Read, Update, Delete, and List BSON with an Id (for tracking) and the following fields:
 1. Phone
 2. Carrier
 3. Score
