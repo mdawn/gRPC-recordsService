@@ -31,8 +31,8 @@ Create, Read, Update, Delete, and List BSON with an Id (for tracking) and the fo
 `$ bin/mongod -dbpath data/db`
 
 **STEP 2**: We open another terminal and clone this repository. Cd into the directory. 
-- install gRPC: `$ go get google.golang.org/grpc`
-- run the server: `go run records_server/server.go`
+- Install gRPC: `$ go get google.golang.org/grpc`
+- Run the server: `go run records_server/server.go`
 
 **STEP 3**: We open our last terminal and homebrew install Evans.
 - `$ brew tap ktr0731/evans`
