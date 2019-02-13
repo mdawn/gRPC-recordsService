@@ -1,14 +1,6 @@
 # See & Store & More 
 
-A CRUD gRPC made with protobufs (and love!) using [MongoDB](https://www.mongodb.com/download-center/community) and [Evans](https://github.com/ktr0731/evans)
-
-
-> <dl>
-> <dt><b><i>"THIS.</i></b></i></b></dt>
-> <dt><b><i>WILL GO DOWN.</i></b></i></b></dt>
-> <dt><b><i>ON YOUR PERMANENT.</i></b></i></b></dt>
-> <dt><b><i>RECORD."</i></b></dt>   
-<dd>- Violent Femmes, "Kiss Off" ;)</dd> 
+A CRUD gRPC made with protobufs using [MongoDB](https://www.mongodb.com/download-center/community) and [Evans](https://github.com/ktr0731/evans)
 
 
 ## What You Need
